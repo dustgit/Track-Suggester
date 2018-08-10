@@ -2,7 +2,7 @@
   background-image: url("../img/opener.jpeg");
   background-repeat: space 200px;
   background-size: cover;
-  font-size:
+  font-size: 30px;
 }
 
 .jumbotron {
@@ -17,4 +17,11 @@ body {
 
 .container2 {
   text-align: center;
+  font-size: 40px;
+}
+
+#results {
+  float: right;
+  margin-right: 175px;
+  margin-bottom: 25px;
 }

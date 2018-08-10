@@ -11,4 +11,56 @@ $(document).ready(function(event) {
   var csharp = 0;
   var java = 0;
 
-  if (answer1 === "")});
+  if (answer1 === "csharp") {
+    csharp++;
+  } else if (answer1 === "java") {
+    java++;
+  } else if (answer1 === "ruby") {
+    ruby++;
+  } else {
+    php++;
+  }
+
+  if (answer2 === "csharp") {
+    csharp++;
+  } else if (answer2 === "java") {
+    java++;
+  } else if (answer2 === "ruby") {
+    ruby++;
+  } else {
+    php++;
+  }
+
+  if (answer3 === "csharp") {
+    csharp++;
+  } else if (answer3 === "java") {
+    java++;
+  } else if (answer3 === "ruby") {
+    ruby++;
+  } else {
+    php++;
+  }
+
+  if (answer4 === "csharp") {
+    csharp++;
+  } else if (answer4 === "java") {
+    java++;
+  } else if (answer4 === "ruby") {
+    ruby++;
+  } else {
+    php++;
+  }
+
+  if (answer5 === "csharp") {
+    csharp++;
+  } else if (answer5 === "java") {
+    java++;
+  } else if (answer5 === "ruby") {
+    ruby++;
+  } else {
+    php++;
+  }
+  
+  }
+
+});
