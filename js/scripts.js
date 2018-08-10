@@ -60,7 +60,25 @@ $(document).ready(function(event) {
   } else {
     php++;
   }
-  
-  }
 
+  if (csharp >= java && csharp >= ruby && csharp >=php) {
+    $(".csharp").show();
+    $(".java").hide();
+    $(".ruby").hide();
+    $(".php").hide();
+  } else if (java >= csharp && java >= ruby && java >=php) {
+    $(".csharp").hide();
+    $(".java").show();
+    $(".ruby").hide();
+    $(".php").hide();
+  }else if (ruby >= csharp && ruby >= java && ruby >=php) {
+    $(".csharp").hide();
+    $(".java").hide();
+    $(".ruby").show();
+    $(".php").hide();
+  }else if (php >= csharp && php >= java & php >= ruby)
+    $(".csharp").show();
+    $(".java").hide();
+    $(".ruby").hide();
+    $(".php").hide();
 });
