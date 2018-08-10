@@ -9,14 +9,14 @@ $(document).ready(function() {
 
     var php = 0;
     var ruby = 0;
-    var csharp = 0;
+    var cSharp = 0;
     var java = 0;
 
-    console.log(php, ruby, csharp, java);
+    console.log(php, ruby, cSharp, java);
 
 
     if (answer1 === "csharp") {
-      csharp++;
+      cSharp++;
     } else if (answer1 === "java") {
       java++;
     } else if (answer1 === "ruby") {
@@ -24,10 +24,10 @@ $(document).ready(function() {
     } else {
       php++;
     }
-    console.log(php, ruby, csharp, java);
+    console.log(php, ruby, cSharp, java);
 
     if (answer2 === "csharp") {
-      csharp++;
+      cSharp++;
     } else if (answer2 === "java") {
       java++;
     } else if (answer2 === "ruby") {
@@ -35,10 +35,10 @@ $(document).ready(function() {
     } else {
       php++;
     }
-console.log(php, ruby, csharp, java);
+console.log(php, ruby, cSharp, java);
 
-    if (answer3 === "csharp") {
-      csharp++;
+    if (answer3 === "cSharp") {
+      cSharp++;
     } else if (answer3 === "java") {
       java++;
     } else if (answer3 === "ruby") {
@@ -46,10 +46,10 @@ console.log(php, ruby, csharp, java);
     } else {
       php++;
     }
-console.log(php, ruby, csharp, java);
+console.log(php, ruby, cSharp, java);
 
-    if (answer4 === "csharp") {
-      csharp++;
+    if (answer4 === "cSharp") {
+      cSharp++;
     } else if (answer4 === "java") {
       java++;
     } else if (answer4 === "ruby") {
@@ -58,10 +58,10 @@ console.log(php, ruby, csharp, java);
       php++;
     }
 
-console.log(php, ruby, csharp, java);
+console.log(php, ruby, cSharp, java);
 
-    if (answer5 === "csharp") {
-      csharp++;
+    if (answer5 === "cSharp") {
+      cSharp++;
     } else if (answer5 === "java") {
       java++;
     } else if (answer5 === "ruby") {
@@ -70,35 +70,35 @@ console.log(php, ruby, csharp, java);
       php++;
     }
 
-console.log(php, ruby, csharp, java);
+console.log(php, ruby, cSharp, java);
 
-    if (csharp > java && csharp > ruby && csharp > php) {
-      $("#csharp").show();
+    if (cSharp > java && cSharp > ruby && cSharp > php) {
+      $("#cSharp").show();
       $("#java").hide();
       $("#ruby").hide();
       $("#php").hide();
     }
 
-     if (java > csharp && java > ruby && java > php) {
-      $("#csharp").hide();
+     if (java > cSharp && java > ruby && java > php) {
+      $("#cSharp").hide();
       $("#java").show();
       $("#ruby").hide();
       $("#php").hide();
     }
 
-    if (ruby > csharp && ruby > java && ruby > php) {
-      $("#csharp").hide();
+    if (ruby > cSharp && ruby > java && ruby > php) {
+      $("#cSharp").hide();
       $("#java").hide();
       $("#ruby").show();
       $("#php").hide();
     }
 
-    if (php > csharp && php > java & php > ruby) {
-      $("#csharp").hide();
+    if (php > cSharp && php > java & php > ruby) {
+      $("#cSharp").hide();
       $("#java").hide();
       $("#ruby").hide();
       $("#php").show();
     }
     })
-    console.log(csharp, java, ruby, php);
+    console.log(cSharp, java, ruby, php);
   });
