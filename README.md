@@ -10,11 +10,11 @@ This project demonstrates the capacity to use JavaScript and jQuery in tandem wi
 
 ## Setup/Installation Requirements
 
- Clone this repository. Open in a simple HTTP server. Requires JavaScript and jQuery libraries. It is found at [Github Pages](dustgit.github.io/(Track-suggester).
+ Clone this repository. Open in a simple HTTP server. Requires JavaScript and jQuery libraries. It is found at [Github Pages](dustgit.github.io/Track-suggester).
 
 ## Known Bugs
 
-There is an known bug in displaying the result for cSharp as a valid response due to the variable cSharp being undefined. It is displayed as one error and one warning: 
+There is an known bug in displaying the result for cSharp as a valid response due to the variable cSharp being undefined. It is displayed as one error and one warning:
 
 * jquery-3.3.1.js:3818 jQuery.Deferred exception: cSharp is not defined ReferenceError: cSharp is not defined
     at HTMLDocument.<anonymous> (file:///Users/seanbrochin/Desktop/Coding/track-suggester/js/scripts.js:103:17)
