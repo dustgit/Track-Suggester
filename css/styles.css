@@ -25,3 +25,19 @@ body {
   margin-right: 175px;
   margin-bottom: 25px;
 }
+
+#ruby {
+  display: none;
+}
+
+#php {
+  display: none;
+}
+
+#java {
+  display: none;
+}
+
+#csharp {
+  display: none;
+}
