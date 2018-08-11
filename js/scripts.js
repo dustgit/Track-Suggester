@@ -1,11 +1,12 @@
 $(document).ready(function() {
   $("form#survey").submit(function(event) {
     event.preventDefault();
+
     var answer1 = $("input:radio[name=question1]:checked").val();
     var answer2 = $("input:radio[name=question2]:checked").val();
     var answer3 = $("input:radio[name=question3]:checked").val();
-    var answer4 = $("input:radio[name=question1]:checked").val();
-    var answer5 = $("input:radio[name=question1]:checked").val();
+    var answer4 = $("input:radio[name=question4]:checked").val();
+    var answer5 = $("input:radio[name=question5]:checked").val();
 
     var php = 0;
     var ruby = 0;
@@ -15,7 +16,7 @@ $(document).ready(function() {
     console.log(php, ruby, cSharp, java);
 
 
-    if (answer1 === "csharp") {
+    if (answer1 === "cSharp") {
       cSharp++;
     } else if (answer1 === "java") {
       java++;
@@ -26,7 +27,7 @@ $(document).ready(function() {
     }
     console.log(php, ruby, cSharp, java);
 
-    if (answer2 === "csharp") {
+    if (answer2 === "cSharp") {
       cSharp++;
     } else if (answer2 === "java") {
       java++;
@@ -99,6 +100,5 @@ console.log(php, ruby, cSharp, java);
       $("#ruby").hide();
       $("#php").show();
     }
-    })
-    console.log(cSharp, java, ruby, php);
+    });
   });
